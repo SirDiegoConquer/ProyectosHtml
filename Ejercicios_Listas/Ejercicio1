@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>Ejercicio de Listas</header>
+    <section>
+        <h2>Lista de ordenada Paises que voy a visitar en los proximos años.</h2>
+        <ol>
+            <li>Japón</li>
+            <li>Islandia</li>
+            <li>Nueva Zelanda</li>
+            <li>Canadá</li>
+            <li>Noruega</li>
+        </ol>
+    </section>
+</html>
