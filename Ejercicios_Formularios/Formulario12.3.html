@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Básico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tarea 12.3</h1>
+        <hr />
+    </header>
+    <main>
+        <h2>Rellena tu CV</h2>
+        <form action="" method="get">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <p>
+                <label for="provincia">Provincia</label>
+            <select name="provincia" id="provincia">
+                <option value="">-</option>
+                <option value="C">Castellón</option>
+                <option value="A">Alicante</option>
+                <option value="V">Valencia</option>
+            </select>
+            </p>
+            <p>
+                Fecha de nacimiento<br/>
+                <input type="text" name="day" size="2" maxlength="2"> de 
+                <select name="month">
+                    <option value="">-</option>
+                    <option value="1">Enero</option>
+                    <option value="2">Febrero</option>
+                    <option value="3">Marzo</option>
+                    <option value="4">Abril</option>
+                    <option value="5">Mayo</option>
+                    <option value="6">Junio</option>
+                    <option value="7">Julio</option>
+                    <option value="8">Agosto</option>
+                    <option value="9">Septiembre</option>
+                    <option value="10">Octubre</option>
+                    <option value="11">Noviembre</option>
+                    <option value="12">Diciembre</option>
+                </select> de 
+                <input type="text" name="year" size="4" maxlength="4">
+            </p>
+            <p>
+                <label for="temas">Temas de Interes</label><br/>
+                <select name="temas" id="temas" multiple size="5">
+                    <option value="1">Administracion de bases de datos</option>
+                    <option value="2">Análisis y programación</option>
+                    <option value="3">Arquitectura</option>
+                    <option value="4">Calidad</option>
+                    <option value="5">ERP, CRM, Business intelligence</option>
+                </select>
+
+            </p>
+        </fieldset>
