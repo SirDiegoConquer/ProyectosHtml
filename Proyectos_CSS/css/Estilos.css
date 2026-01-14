@@ -17,3 +17,31 @@ h3 {
     font-size: 1.5em;
     color: orange;
 }
+
+background {
+    background-color: purple;
+}
+
+.destacado {
+    color: yellow;
+}
+
+a {
+    color: pink;
+}
+
+.grande {
+    font-size: 3em;
+}
+
+.destacado.grande {
+    border: 1px solid red;
+}
+
+#comentario {
+    color: teal;
+}
+
+#comentario.destacado {
+    background-color: lime;
+}
