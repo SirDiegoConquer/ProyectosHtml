@@ -1,0 +1,115 @@
+/*1. Selecciona los elementos div que sean hijos de otro div*/
+/*2. Selecciona el último elemento de un grupo de elementos hermanos li*/
+/*3. Selecciona los hijos pares de un elemento li*/
+/*4. Selecciona los hijos impares de un elemento li*/
+/*5. Selecciona los elementos p que sean hijos de article*/
+/*6. Selecciona los p que esten dentro de un article*/
+/*7. Selecciona los titulos principal h1 y los h3*/
+/*8. Selecciona los ol que esten dentro de body*/
+/*9. Los elementos <ul> que sean hijos de <body>*/
+/*10.Los elementos <a> que sean hijos de <p>*/
+/*11.Los elementos <div> que sean descendientes de <body>*/
+/*12.El primer hijo de body*/
+/*13.El último hijo de <ul>*/
+/*14.El primer hijo de <ul>*/
+/*15.Los elementos <li> pares de <ul>*/
+/*16.Los elementos <li> impares de <ul>*/
+/*17.El hijo de <ul> que esté en la posición 3*/
+/*18.Un párrafo con la identificación "platano".*/
+/*19.Un elemento con la clase "rojo" que sea primer hijo.*/
+/*20.Seleccionar los h2 dentro de un section*/
+/*21.Seleccionar el segundo hijo de un elemento section*/
+/*22.Seleccionar los hijos pares de un elemento ol*/
+/*23.Seleccionar el antepenúltimo li de un ul de longitud indefinida*/
+/*24.Seleccionar los p, que tengan la clase verde y que sean hijos directos de un div*/
+/*25.Seleccionar los a que sean hijos de div y tengan un atributo class que contenga
+la palabra grande*/
+/*26.Los button que sean hijos de un section*/
+/*27.Los button que sean hijos únicos*/
+/*28.Los span que sean primeros hijos de un p*/
+/*29.Los input que vayan a continuación de un label y además sean hijos de un
+section*/
+/*30.Los button que tengan como padre un div*/
+/*31.Penúltimo hijo de body*/
+/*32.Todos los label con el atributo for="mascota"*/
+/*33.Todos los elementos "img" que tengan la clase "clasec", y que se encuentren
+dentro de cualquier elemento "div".*/
+/*34.Todos los enlaces dentro de párrafos.*/
+/*35.Todos los elementos que tengan la clase "Curvado".*/
+/*36.Todos los elementos a y ol que tengan la clase "Recto".*/
+/*37.Todos los elementos "a" que se encuentren dentro de cualquier elemento "h2",
+que a suvez se encuentren dentro de cualquier elemento "div".*/
+/*38.Todos los hijos de span que estén dentro de un p que estén dentro de un div.*/
+/*39.Todos los elementos "p" y todos los elementos con atributo class="aviso" que
+estén dentro de div.*/
+/*40.Los elementos "em" y "a" que sean hijos directos de elementos "p", cuyo id sea
+"Sons".*/
+/*41.Todos los elementos a contenidos en .basico*/
+/*42. Todos los "h2" dentro de una clase .lolito*/
+/*43. Todos los elementos dentro de un <p>*/
+/*44. El selector que está dentro de un párrafo que a su vez está dentro de un div*/
+/*45.Seleccionar un <span> que sea hijo directo de un <p>*/
+/*46.Seleccionar un <li> dentro de un <p> dentro de un <h1>*/
+/*47.Seleccionar todos los <div> que tienen la clase .transbox*/
+/*48.Todos los <p> que estan dentro de cualquier <h1>*/
+/*49.Todos los <li>*/
+/*50.Todos los <p> que son hijos de un <h2>*/
+/*51.Todos los párrafos dentro de un div.*/
+/*52.Todos los elementos a de la pagina*/
+/*53. Todos los elementos dentro de la clase .libreConf*/
+/*54.todos los p dentro de la clase .libreConf*/
+/*55.todos los p dentro de h2 dentro de div*/
+/*56.todos los p contenidos en el id prueba1*/
+/*57.todos los a que sean hijos de un p y que a su vez se encuentren dentro de un
+div*/
+/*58.todos los h1, h2 y h3 que tengan la clase .libreConf*/
+/*59.seleccionar el elemento p cuyo id sea párrafo1*/
+/*60. todos los a que sean hijos directos de p cuya id sea hijos*/
+/*61.Todos los "p" que estén dentro de un "div"*/
+/*62.Los dos primeros "p"*/
+/*63.Todos los elementos "a" que tengan la clase "azul" que estén dentro de un "div"
+que contenga la id "primero"*/
+/*64.Todos los elementos "span" y todos los elementos "div" que tengan la clase
+"holaKtal"*/
+/*65.Todos los elementos "li" con el atributo "h3" dentro de los "p" que sean hijos
+/*directos de "div"*/
+/*66.Todos los elementos impares de un "p"*/
+/*67.Selecciona los "span" y "h3" dentro de un "div"*/
+/*68.Selecciona el tercer "a" y el quinto "p"*/
+/*69.Selecciona los "h1" que sean de la clase "rojo" que estén dentro de un "div"*/
+/*70.Todos los elementos contenidos dentro de un p y que a su vez estén dentro de
+un div*/
+/*71.Todos los p que tengan la clase .centrado*/
+/*72.Todos los elementos p contenidos en un h1 que tengan la clase .hola*/
+/*73.Los últimos hijos de div*/
+/*74.El tercer a que esté dentro de un p*/
+/*75.Selecciona los h2 que tengan el id #titulo*/
+/*76.Selecciona el segundo p dentro de un div*/
+/*77.Selecciona los p a partir del tercero*/
+/*78.Selecciona los h1 que sean hijos directos del segundo elemento p contenido en
+un div*/
+/*79.Todos los elementos a con clase Buenas que se encuentren en un p con id
+Nombre quesean hijos de cualquier elemento.*/
+/*80.Todos los h1 de la página y todos los h2 que se encuentren dentro de un div.*/
+/*81.Todos los div de la página que sean los primeros de su tipo.*/
+/*82.Todos los h3 de la página*/
+/*83. Toda imagen que se encuentre dentro de un p de clase Row*/
+/*84.Todos los ol que se encuentren dentro de un cualquier elemento que este
+dentro de un div*/
+/*85.Todas los span, a y div que se encuentren en cualquier p*/
+/*86.Todos los primeros hijos que tengan la clase power que se encuentren dentro
+de cualquier elemento de clase hype*/
+/*87.Todas las listas ordenadas de la pagina*/
+/*88.Todos los enlaces dentro de un párrafo con la clase .hola*/
+/*89.El segundo hijo de p*/
+/*90.El último hijo del segundo p dentro de div*/
+/*91.El primer hijo y el ultimo de div*/
+/*92.selecciona el id #c-header dentro de p, que a su vez esta dentro de div*/
+/*93.Todos los p*/
+*p {
+
+}
+/*94.Todas las imágenes con la clase loco*/
+/*95.El tercer hijo y el segundo enlace de p*/
+/*96.El último p*/
+/*97.Seleccionar el primer y último párrafo*/

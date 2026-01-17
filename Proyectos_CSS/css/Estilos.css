@@ -1,60 +1,96 @@
-h1 {
-    font-size: 2.5em;
-    color: blue;
+/*Selectores II*/
+/*1- Selecciona los elementos div que sean hijos de otro div*/
+div > div {
+    
+}
+/*2- Selecciona los hijos de los elementos p*/
+p > * {
+
+}
+/*3- Selecciona los elemnetos p que sean hijos de article*/
+article > p {
+
+}
+/*4- Selecciona los p que esten dentro de un article*/
+article p {
+
+}
+/*5- Selecciona los titulos h1 y h3*/
+h1, h3 {
+
+}
+/*6- Selecciona los ol que esten dentro de body*/
+body ol {
+
+}
+/*7- Culaquier elemento que tenga la clase "amarillo"*/
+.amarillo {
+
+}
+/*8- Los elementos <ul> que sean hijos de <body>*/
+body > ul {
+
+}
+/*9- Los elementos <a> que sean hijos de <p>*/
+p > a {
+
+}
+/*10- Selecciona el elemento con la id"platano"*/
+#platano {
+
+}
+/*11- Todos los elementos <div> que sean hermanos de un helemnto <h2>*/ 
+h2 ~ div {
+
+}
+/*12- Todos los elementos <p> con clase = paisa, descendientes de un elemento <ul>*/
+ul p.paisa {
+
+}
+/*13- Selecciona los elementos h1 h2 h3 que tengan las clase"headertitle",hijos del header*/
+header > h1.headertitle, h2.headertitle, h3.headertitle {
+    
 }
 
-p {
-    font-size: 1.3em;
-    color: red;
+/*Selectores III*/
+/*1- El primer elemento <a> de hijo <p>*/
+p > a:first-of-type {
+
+}
+/*2- Selecciona los checkbox que esten marcados, hijos de un <form>*/
+form > input[type="checkbox"]:checked {
+
+}
+/*3- Selecciona el ultimo <p> qe sea descendiente de <article>*/
+article p:last-of-type {
+
+}
+/*4- Selecciona el segundo hijo de un section*/
+section > *:nth-child(2) {
+
+}
+/*5- Seleccionar los hijos pares de un elemento <ol>*/
+ol > :nth-child(even) {
+
+}
+/*6- Seleccionar el antepenultimo <li> de un <ul> de longitud indefinida*/
+ul > li:nth-last-child(3) {
+
+}
+/*7- El segundo <a> de un elemneto <p>*/
+p > a:nth-of-type(2) {
+
+}
+/*8- Los button que sean hijos unicos*/
+button:only-child {
+
+}
+/*9- Los <span> que sean primeros hijos de un <p>*/
+p > span:first-child {
+
+}
+/*10- Penultimo hijo de body*/
+body > *:nth-last-child(2) {
+    
 }
 
-h2 {
-    font-size: 2em;
-    color: green;
-}
-
-h3 {
-    font-size: 1.5em;
-    color: orange;
-}
-
-
-.destacado {
-    color: yellow;
-}
-
-a {
-    color: pink;
-}
-
-.grande {
-    font-size: 3em;
-}
-
-.destacado.grande {
-    border: 1px solid red;
-}
-
-#comentario {
-    color: teal;
-}
-
-#comentario.destacado {
-    background-color: lime;
-}
-
-footer a {
-    color: coral;
-}
-
-section a {
-    color: rgb(42, 134, 165);
-}
-
-section.producto h2 {
-    color: purple;
-}
-
-section.articulo h2 {
-    color: rgb(100, 128, 0);
-}
