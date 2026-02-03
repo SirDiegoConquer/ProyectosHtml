@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(152, 236, 208);
+    height: auto;
+}
+footer {
+    text-align: center;
+    text-decoration: overline;
+    margin-top: 100%;
+}
+
+header h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+nav {
+    border : 2px dashed black;
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: gray;
+    font-weight: bold;
+}
+
+section#sobre-mi {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 450px;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+section#sobre-mi a {
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+}
+
+section#sobre-mi a:hover {
+    color: gray;
+    font-weight: bold;
+}
+
+section#contacto {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 450px;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+section#contacto a {
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+}
+
+section#contacto a:hover {
+    color: gray;
+    font-weight: bold;
+}
