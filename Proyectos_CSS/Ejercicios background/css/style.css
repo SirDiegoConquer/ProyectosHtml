@@ -1,0 +1,45 @@
+nav {
+    border: 5px solid black;
+}
+
+nav ul {
+    background-color: lightgray;
+    margin: 10px;
+}
+
+nav ul li {
+    color: black
+}
+
+nav ul li a {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {   
+    color: red;
+}
+
+nav ul li a:visited {
+    color: blue;
+}
+
+body {
+   background-color: skyblue;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    text-shadow: 1px 1px 2px gray;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    text-shadow: 1px 1px 2px gray;
+}
