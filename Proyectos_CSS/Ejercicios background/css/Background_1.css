@@ -1,10 +1,12 @@
 .myHeader {
     border: 5px solid black;
     border-radius: 10px;
-    padding: 20px, 10px;
-    background-color: rgb(84, 167, 240);
+    padding: 20px 10px;
+    background-color: rgb(107, 188, 238);
     background-image: url(../img/balloons.jpg);
     background-position: top, right;
+    background-size: 100%;
+    width: 350px;
     }
 
 .myHeader h2 {
