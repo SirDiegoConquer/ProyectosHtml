@@ -8,7 +8,7 @@ import random
 pygame.init()
 
 #--- Tamaño de la mascota.
-width, height = 300, 200
+width, height = 200, 150
 
 #--- Crear la ventana de la mascota sin bordes.
 screen = pygame.display.set_mode((width, height), pygame.NOFRAME)

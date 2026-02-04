@@ -1,3 +1,5 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "ProyectosHtml"
+    "liveServer.settings.multiRootWorkspaceName": "ProyectosHtml",
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda"
 }
