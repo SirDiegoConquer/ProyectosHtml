@@ -1,5 +1,5 @@
 .conteiner {
-    width: 600px;
+    width: 550px;
     height: 300px;
     background-color: gainsboro;
     padding: 10px;
@@ -87,4 +87,40 @@
     position: absolute;
     top: 0px;
     right: 0px;
+}
+
+.ejercicio3 .rojo {
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    bottom: 40px;
+    right: 110px;
+    z-index: 3;
+}
+
+.ejercicio3 .azul {
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    z-index: 1;
+}
+
+.ejercicio3 .verde {
+    width: 25%;
+    height: 110px;
+    position: absolute;
+    top: 100px;
+    left: 55px;
+    z-index: 2;
+}
+
+.ejercicio3 .amarillo {
+    width: 32%;
+    height: 150px;
+    position: absolute;
+    top: 45px;
+    right: 50px;
+    z-index: 2;
 }
