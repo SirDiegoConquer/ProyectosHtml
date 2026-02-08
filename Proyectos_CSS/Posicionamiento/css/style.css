@@ -124,3 +124,27 @@
     right: 50px;
     z-index: 2;
 }
+
+.ejercicio4 .rojo {
+    display: inline-block;
+    width: 20%;
+    height: 230px;
+}
+
+.ejercicio4 .azul {
+    display: inline-block;
+    width: 20%;
+    height: 230px;
+}
+
+.ejercicio4 .verde {
+    display: inline-block;
+    width: 20%;
+    height: 230px;
+}
+
+.ejercicio4 .amarillo {
+    display: inline-block;
+    width: 20%;
+    height: 230px;
+}
