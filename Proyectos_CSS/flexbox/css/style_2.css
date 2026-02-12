@@ -1,0 +1,71 @@
+div.maestra {
+    border: 3px solid red;
+    width: 650px;
+    height: 400px;
+    
+}
+
+.maestra.ejercicio6 {
+    display: flex;
+    
+}  
+
+.maestra.ejercicio6 div {
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.ejercicio6 div:nth-child(1) {
+    background-color: #59B99D;
+    color: white;
+    
+
+}
+
+div:nth-child(2){
+    background-color: #5296D5;
+    color: white;
+}
+
+div:nth-child(3) {
+    background-color: #925CB0;
+    color: white;
+}
+
+div:nth-child(4) {
+    background-color: #37485C;
+    color: white;
+}
+
+div:nth-child(5) {
+    background-color: #E9C644;
+    color: white;
+}
+
+div:nth-child(6) {
+    background-color: #D7833B;
+    color: white;
+}
+
+div:nth-child(7) {
+    background-color: #D65746;
+    color: white;
+}
+
+div:nth-child(8) {
+    background-color: #BEC3C7;
+    color: white;
+}
+
+div:nth-child(9) {
+    background-color: #64C979;
+    color: white;
+}
+
+div:nth-child(10) {
+    background-color: #4A9E86;
+    color: white;
+}
