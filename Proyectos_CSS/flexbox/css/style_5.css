@@ -1,0 +1,115 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 1px;
+}
+
+header.header {
+    padding: 0;
+    background-color: #B5FF6C;
+}
+    
+
+
+figure.logo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+figure.logo img {
+    max-width: 200px;
+    padding-top: 10px;
+}
+
+nav.menu {
+    background-color: #74A345;
+    padding: 10px;
+}
+
+nav.menu ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    gap: 10px;
+    
+}
+
+nav.menu ul li a {
+    color: white;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+nav.menu ul li a:hover {
+    color: #B5FF6C;
+}
+
+nav.menu li+li:before {
+    content: " | ";
+    color: white;
+    
+
+}
+
+section.banner img {
+    width: 100%;
+    max-height: 250px;
+    margin-bottom: 20px;
+}
+
+section article.casa-rural {
+    border: 3px solid #AF9A49;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #FCFCB6;
+    margin-bottom: 15px;
+}
+
+section article.Camping {
+    border: 3px solid #A2BD88;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #D3FEAC;
+    margin-bottom: 15px;
+}
+
+section article.hoteles {
+    border: 3px solid #00275B;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #B7E3FE;
+    margin-bottom: 15px;
+}
+
+aside.opiniones {
+    border-top: 5px solid #555555;
+    border-bottom: 5px solid #555555;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    background-color: #CCCCCC;
+    
+}
+
+aside.opiniones h4 {
+    font-style: italic;
+    color: gray;
+}
+
+div.stars {
+    display: flex;
+    gap: 5px;
+    padding-left: 20px;
+}
