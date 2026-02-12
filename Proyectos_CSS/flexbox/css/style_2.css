@@ -1,12 +1,68 @@
-div.maestra {
+.maestra {
     border: 3px solid red;
-    width: 650px;
-    height: 400px;
-    
+    width: 300px;
+    height: 180px;    
 }
+
+
+
+.maestra div:nth-child(1) {
+    background-color: #59B99D;
+    color: white;
+    
+
+}
+
+.maestra div:nth-child(2){
+    background-color: #5296D5;
+    color: white;
+}
+
+.maestra div:nth-child(3) {
+    background-color: #925CB0;
+    color: white;
+}
+
+.maestra div:nth-child(4) {
+    background-color: #37485C;
+    color: white;
+}
+
+.maestra div:nth-child(5) {
+    background-color: #E9C644;
+    color: white;
+}
+
+.maestra div:nth-child(6) {
+    background-color: #D7833B;
+    color: white;
+}
+
+.maestra div:nth-child(7) {
+    background-color: #D65746;
+    color: white;
+}
+
+.maestra div:nth-child(8) {
+    background-color: #BEC3C7;
+    color: white;
+}
+
+.maestra div:nth-child(9) {
+    background-color: #64C979;
+    color: white;
+}
+
+.maestra div:nth-child(10) {
+    background-color: #4A9E86;
+    color: white;
+}
+
+/* Ejercicio 6 */
 
 .maestra.ejercicio6 {
     display: flex;
+    background-color: white;
     
 }  
 
@@ -18,54 +74,63 @@ div.maestra {
     text-align: center;
 }
 
-.ejercicio6 div:nth-child(1) {
-    background-color: #59B99D;
-    color: white;
-    
+
+
+/* Ejercicio 7 */
+
+.maestra.ejercicio7 {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: white;
+    height: 200px;
+    min-height: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.maestra.ejercicio7 div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
 
 }
 
-div:nth-child(2){
-    background-color: #5296D5;
-    color: white;
+/* Ejercicio 8*/
+
+.maestra.ejercicio8 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  white;
+
 }
 
-div:nth-child(3) {
-    background-color: #925CB0;
-    color: white;
-}
+.maestra.ejercicio8 div {
+    width: 33.33%;
+    text-align: center;
+    font-size: 20px;
 
-div:nth-child(4) {
-    background-color: #37485C;
-    color: white;
-}
+ }
 
-div:nth-child(5) {
-    background-color: #E9C644;
-    color: white;
-}
+ /* Ejercicio 9*/
 
-div:nth-child(6) {
-    background-color: #D7833B;
-    color: white;
-}
+ .maestra.ejercicio9 {
+    display: flex;
+    height: 20px;
+    background-color: white;
+ }
 
-div:nth-child(7) {
-    background-color: #D65746;
-    color: white;
-}
+ .maestra.ejercicio9 div {
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
 
-div:nth-child(8) {
-    background-color: #BEC3C7;
-    color: white;
-}
+ }
 
-div:nth-child(9) {
-    background-color: #64C979;
-    color: white;
-}
+ .maestra.ejercicio9 div:nth-child(5) {
+    order: -1;
+ }
 
-div:nth-child(10) {
-    background-color: #4A9E86;
-    color: white;
-}
+ .maestra.ejercicio9 div:nth-child(6) {
+    order: 2;
+ }
