@@ -53,3 +53,52 @@
     text-align: center;
     
 }
+
+/* Ejercicio 4*/
+
+.container.ejercicio4 {
+    display: grid;
+    max-width: 500px;
+    grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+    border: 2px solid lightgrey;
+    grid-template-rows: 50px 50px 50px;
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    background-color: red;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    grid-area: main;
+    display: flex;
+    background-color: lightskyblue;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    display: flex;
+    background-color: green;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    background-color: gray;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
