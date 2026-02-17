@@ -1,0 +1,55 @@
+/* Ejercicio 1*/
+
+.container.ejercicio1 {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 30px 30px 30px;
+    gap: 10px;
+}
+
+.container.ejercicio1 div {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* Ejercicio 2*/
+
+.container.ejercicio2 {
+    display: grid;
+    grid-template-columns: 20px 50px;
+    grid-template-rows: 20px 50px;
+    gap: 2px;
+}
+
+.container.ejercicio2 div {
+    background-color: rgb(9, 173, 151);
+    color: white;
+    text-align: center;
+    
+}
+
+.container.ejercicio2 div:nth-child(3) {
+    padding-top: 75%;
+}
+
+.container.ejercicio2 div:nth-child(4) {
+    padding-top: 30%;
+}
+
+/* Ejercicio 3*/
+
+.container.ejercicio3 {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 1fr 1fr;
+    gap: 2px;
+}
+
+.container.ejercicio3 div {
+    background-color: rgb(247, 178, 190);
+    color: white;
+    text-align: center;
+    
+}
