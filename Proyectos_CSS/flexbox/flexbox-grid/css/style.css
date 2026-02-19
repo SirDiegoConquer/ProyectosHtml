@@ -171,3 +171,64 @@
 .container.ejercicio7 div:nth-child(2) {
     grid-row: 2 / span 2;
 }
+
+/* Ejercicio 8 */
+
+.container.ejercicio8 {
+    max-width: 500px;
+    display: grid;
+    grid-template-areas: 
+    "numero11 numero11 numero11"
+    "numero22 numero33 numero44"
+    "numero22 numero55 numero66";
+    gap: 1px;
+    grid-template-rows: 40px 40px 40px;
+
+}
+
+.container.ejercicio8 div {
+    background-color: rgb(69, 76, 93);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.numero11 {
+    grid-area: numero11;
+}
+
+.numero22 {
+    grid-area: numero22;
+}
+
+/* Ejercicio 9 */
+
+.container.ejercicio9 {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 40px 40px 40px 40px;
+    gap: 1px;
+}
+
+.container.ejercicio9 div {
+    background-color: rgb(69, 76, 93);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container.ejercicio9 div:nth-child(1) {
+    grid-area: 1 / 1 / span 1 / span 3;
+}
+
+.container.ejercicio9 div:nth-child(2) {
+    grid-area: 1 / 4 / span 2 / span 1;
+}
+
+/* Ejercicio 10 */
+
