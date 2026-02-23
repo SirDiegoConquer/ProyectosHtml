@@ -369,7 +369,7 @@
     max-width: 500px;
     display: grid;
     grid-template-columns: 150px 250px;
-    grid-template-rows: 70px 70px 70px;
+    grid-template-rows: 50px 90px 90px;
     gap: 1px;
 }
 
@@ -377,7 +377,7 @@
     background-color: rgb(69, 76, 93);
     display: flex;
     color: white;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 10px;
@@ -387,20 +387,20 @@
     grid-area: 2 / 2 / span 2 / span 1;
 }
 
- div.interno  {
+div.numero4 div.interno  {
     display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px;
+    background-color: white;
 }
-
-.container.ejercicio14 div.numero4 div {
+ div.numero4 div.interno div {
+    
     background-color: #D5D5F2;
-    color: white;
-    justify-content: left;
-    align-items: center;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 10px;
 }
 
-.container.ejercicio14 div.numero4 div:nth-child(1) {
-    grid-area: 1 / span 2;
+div.interno > div:first-of-type {
+    grid-area: 1 / 1 / span 1 / span 2;
 }
-
