@@ -110,3 +110,60 @@ table.ejercicio3 tbody tr td.high {
 table.ejercicio3, table.ejercicio3 th, table.ejercicio3 td {
     border-spacing: 0px;
 }
+
+/* Ejercicio 4 */
+
+table.ejercicio4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    border-spacing: 0px;
+}
+
+table.ejercicio4 th, table.ejercicio4 td {
+    padding: 15px 70px;
+}
+
+table.ejercicio4 tbody tr:nth-child(odd) {
+    background-color: #EEEEEE;
+}
+
+table.ejercicio4 thead th {
+    font-weight: normal;
+}
+
+table.ejercicio4 tbody tr a.btn {
+    background-color: #3F66C5;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+table.ejercicio4 tbody tr a.btn.btn--progress {
+    background-color: #53A551;
+} 
+
+table.ejercicio4 tbody tr a.btn.btn--progress:hover {
+    background-color: #336833;
+} 
+
+
+table.ejercicio4 tbody tr a.btn.btn--open {
+    background-color: #F6C344;
+    color: black;
+}
+
+table.ejercicio4 tbody tr a.btn.btn--open:hover {
+    background-color: #a07f2c;
+    color: white;
+}
+
+table.ejercicio4 tbody tr a.btn.btn--onhold {
+    background-color: #CB444A;
+}
+
+table.ejercicio4 tbody tr a.btn.btn--onhold:hover {
+    background-color: #7b2a2e;
+}
