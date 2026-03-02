@@ -1,0 +1,61 @@
+/* Ejercicio 2 */
+
+div.ejercicio2 {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(100, 252, 249);
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.ejercicio2 p {
+    color: white;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px gray;
+}
+
+/* Ejercicio 3 */
+
+div.ejercicio3 {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(244, 235, 191);
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.ejercicio3 p {
+    color: white;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px  rgb(144, 143, 143);
+}
+
+/* Ejercicio 4 */
+
+div.ejercicio4 {
+    margin: 20px;
+    padding: 20px;
+    background-color: #6CFAFC;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.ejercicio4 p {
+    color: white;
+    font-size: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-shadow: -10px 10px #5EE3E2,
+                 -20px 20px #57C6CC,
+                 -30px 30px #54B7BC;
+}
