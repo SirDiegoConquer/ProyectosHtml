@@ -1,1 +1,1 @@
-import './style.css'
+import './plantilla de sass/style.scss'
