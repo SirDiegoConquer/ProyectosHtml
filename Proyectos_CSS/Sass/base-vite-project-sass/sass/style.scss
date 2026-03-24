@@ -6,3 +6,22 @@
 @import "./pages/pages";
 @import "./themes/themes";
 @import "settings";
+
+h1 {
+    color: red;
+    @include breakpoint(tablet) {
+        color: blue;
+    }
+    @include breakpoint(tablethorizontal) {
+        text-align: center;
+        color: green;
+    }
+    @include breakpoint(desktop) {
+        text-align: left;
+        color: yellow;
+    }
+    @include breakpoint(desktopxl) {
+        text-align: right;
+        color: purple;
+    }
+}
