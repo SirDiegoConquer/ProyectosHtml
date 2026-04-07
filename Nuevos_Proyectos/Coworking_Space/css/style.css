@@ -1,0 +1,79 @@
+
+
+
+/* Aqui empieza la maquetación del proyecto */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+:root {
+  --color-base: #FFFFFF;
+  --color-text: #313131;
+  --color-subcolor: #9B9A78;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-base);
+  background-image: url(../img/Placeholder.jpg);
+  background-repeat: no-repeat;
+  background-position: top left 100px;
+  background-size: 50%;
+  background-position-y: 100px;
+}
+
+
+.container {
+  max-width: 1300px;
+  margin-left: 83px;
+  margin-right: 83px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+header.header_container {
+  padding-top: 33px;
+  padding-bottom: 33px;
+  display: flex;
+  align-items: center;
+}
+
+nav.nav_container ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-left: 100px;
+}
+
+nav.nav_container ul li a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  
+}
+
+.header_btn {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+  font-family: "poppins", sans-serif;
+  align-items: center;
+}
+
+div.header_btn a:nth-child(2) {
+  text-decoration: none;
+  color: var(--color-base);
+  background-color: var(--color-subcolor);
+  font-weight: 400;
+  font-size: 14px;
+  padding: 10px 30px;
+}
+
+div.header_btn a:nth-child(1) {
+  color: var(--color-subcolor);
+}
