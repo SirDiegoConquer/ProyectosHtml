@@ -57,6 +57,10 @@ nav.nav_container ul li a {
   
 }
 
+nav.nav_container .nav_home {
+  color: var(--color-subcolor);
+}
+
 .header_btn {
   margin-left: auto;
   display: flex;
@@ -65,7 +69,7 @@ nav.nav_container ul li a {
   align-items: center;
 }
 
-div.header_btn a:nth-child(2) {
+div.header_btn a:nth-child(3) {
   text-decoration: none;
   color: var(--color-base);
   background-color: var(--color-subcolor);
@@ -74,6 +78,92 @@ div.header_btn a:nth-child(2) {
   padding: 10px 30px;
 }
 
-div.header_btn a:nth-child(1) {
+div.header_btn a:nth-child(2) {
   color: var(--color-subcolor);
+}
+
+/* Empieza el Hero */
+
+.hero {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+
+.hero__content {
+  width: 55%;
+  box-sizing: border-box;
+}
+
+.hero__header {
+  background: rgba(255, 255, 255, 0.70);
+  backdrop-filter: blur(8px);
+  padding: 20px;
+}
+
+.hero h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 47px;
+  color: #313131;
+  line-height: 60px;
+  max-width: 500px;
+  margin-top: 0;
+  position: relative;
+}
+
+.hero h1::before {
+  content: "";
+  height: 8px;
+  width: 72px;
+  position: absolute;
+  background-color: var(--color-subcolor);
+  right: 0;
+  top: 30px;
+}
+
+.hero__header p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #909090;
+  max-width: 500px;
+}
+
+.hero__list {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.hero__list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  width: 60%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.hero__list ul li {
+  font-weight: 300;
+  background-image: url(../img/Check.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 18px;
+  padding-left: 30px;
+  margin: 5px;
+}
+
+/* Empieza la sección de categorías */
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  padding: 20px;
+  
 }
