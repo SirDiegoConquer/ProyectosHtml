@@ -161,9 +161,25 @@ div.header_btn a:nth-child(2) {
 .categories {
   display: flex;
   justify-content: space-between;
-  gap: 40px;
+  gap: 220px;
   font-family: "Poppins", sans-serif;
   margin-top: 20px;
-  padding: 20px;
-  
+  padding-left: 96px;
+  padding-right: 96px;  
+}
+
+.categories article img {
+  width: 60px;
+}
+
+.categories article h2 {
+  font-size: 16px;
+  color: var(--color-text);
+  margin: 0;
+  font-weight: 600;
+}
+
+.categories article p {
+  font-size: 14px;
+  color: gray;
 }
