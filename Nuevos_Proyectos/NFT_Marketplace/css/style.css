@@ -1,0 +1,16 @@
+
+
+
+/* Aqui empieza la maquetación del proyecto */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+:root {
+  --color-base: #FFFFFF;
+  --color-text: #2E2F38;
+  --color-subcolor: #FA504D;
+  --color-secondary: #2E2F38;
+
+}
