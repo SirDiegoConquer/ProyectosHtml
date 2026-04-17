@@ -4,13 +4,241 @@
 /* Aqui empieza la maquetación del proyecto */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Belgrano&display=swap');
 
 :root {
   --color-base: #FFFFFF;
   --color-text: #2E2F38;
   --color-subcolor: #FA504D;
   --color-secondary: #2E2F38;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::before {
+  content: "";
+  width: 45%;
+  height: 820px;
+  background-color: var(--color-secondary);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.header__logo {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav__principal {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 100px;
+}
+
+
+.nav__principal ul {
+  display: flex;
+  list-style: none;
+  gap: 45px;
+}
+
+.nav__principal ul li a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.nav__principal ul li a:hover {
+  color: var(--color-subcolor);
+}
+
+aside.login {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+aside.login ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  
+}
+
+aside.login ul li a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+ aside.login .btn1 {
+  color: var(--color-base);
+}
+
+ aside.login .btn1:hover {
+  color: var(--color-base);
+  background-color: var(--color-subcolor);
+  padding: 7px 25px;
+}
+
+
+aside.login .btn2 {
+  background-color: var(--color-subcolor);
+  color: var(--color-base);
+  padding: 7px 25px; 
+}
+
+aside.login .btn2:hover {
+  color: var(--color-text);
+}
+
+/* Aqui empieza el grid column del proyecto */
+
+main {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.hero {
+  grid-column: 1 / span 1;
+}
+
+.featured {
+  grid-column: 1 / span 1;
+}
+
+.nft {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 2;
+}
+
+/* Seguimos maqueteando el contenido del main */
+
+.hero {
+  margin-top: 20px;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hero_title {
+  font-family: 'Belgrano', serif;
+  font-weight: 400;
+  font-size: 55px;
+  color: var(--color-text);
+  margin-bottom: 10px;
+}
+
+.hero_subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #8E8E8E;
+  margin-bottom: 30px;
+}
+
+.hero__btn {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.hero__btn .btn1 {
+  background-color: var(--color-subcolor);
+  color: var(--color-base);
+  padding: 5px 50px;
+}
+
+.hero__btn a.btn1  {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.hero__btn a.btn2 {
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.featured__title {
+  font-family: 'Belgrano', serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: var(--color-text);
+  margin-bottom: 20px;
+}
+
+.featured__content {
+  display: flex;
+  gap: 20px;
+}
+
+.featured__content img {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.nft__imagecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nft__data {
+  background-color: var(--color-base);
+  display: flex;
+}
+
+
+
+.nft__numbers {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.nft__numbers .nft__number {
+  color: var(--color-subcolor);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  padding-right: 3px;
+}
+
+.nft__numbers div {
+  color: var(--color-base);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 
 }
