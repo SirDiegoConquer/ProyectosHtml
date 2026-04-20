@@ -130,6 +130,8 @@ main {
 .nft {
   grid-column: 2 / span 1;
   grid-row: 1 / span 2;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 /* Seguimos maqueteando el contenido del main */
@@ -150,6 +152,24 @@ main {
   font-size: 55px;
   color: var(--color-text);
   margin-bottom: 10px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.hero_title::before {
+  background-image: url(../img/nft-lazo.svg);
+  position: absolute;
+  background-size: 50px;
+}
+
+.hero_subtitle::before {
+  content: "";
+  height: 4px;
+  width: 70px;
+  background-color: #FA504D;
+  position: absolute;
+  bottom: 5px;
+  
 }
 
 .hero_subtitle {
@@ -158,6 +178,7 @@ main {
   font-size: 20px;
   color: #8E8E8E;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .hero__btn {
@@ -207,17 +228,79 @@ main {
   padding: 5px;
 }
 
-.nft__imagecontainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.nft__imagecontainer img {
+  max-width: 100%;
 }
 
 .nft__data {
   background-color: var(--color-base);
+  padding: 15px;
+  margin-top: -50px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+.nft__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+.nft__owner {
   display: flex;
 }
 
+.nft__owner img {
+  padding-right: 15px;
+}
+
+.username {
+  color: gray;
+  font-weight: 300;
+}
+
+.nft__name {
+  font-weight: bold;
+}
+
+.nft__price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nft__price-current {
+  color: gray;
+}
+
+.nft__price-number {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nft__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.nft__buttons a.btn1 {
+  color: var(--color-base);
+  background-color: #FA504D;
+  text-decoration: none;
+  padding: 10px 67px;
+}
+
+.nft__buttons a.btn2 {
+  color: var(--color-subcolor);
+  background-color: var(--color-base);
+  text-decoration: none;
+  padding: 10px 67px;
+}
+
+
+/* Acabamos con los numeros finales */
 
 
 .nft__numbers {
